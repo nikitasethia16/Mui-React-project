@@ -4,6 +4,7 @@ import theme from './styles/theme'
 import Appbar from './components/appbar'
 import Banner from './components/banner'
 import Promotion from './components/promotions'
+import Products from './components/products'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Appbar/>
       <Banner/>
       <Promotion/>
+      <Products/>
     </Container>
     </ThemeProvider>
   )
