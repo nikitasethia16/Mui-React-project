@@ -65,8 +65,7 @@ export const BannerShopButton = styled(Button, {
       props.color === "secondary" && styles.secondary,
     ],
   })(({ theme }) => ({
-    padding: "20px 0px",
-    color: Colors.white,
+    padding: "20px 0px",    
     fontWeight: "bold",
     fontSize: "16px",
     [theme.breakpoints.down("sm")]: {
